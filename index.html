@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flag Project</title>
+   <style>
+    .flag > div {
+        height: 600px;
+        width: 900px;
+    }
+
+    #first {
+        background-color: rgb(206, 17, 38);
+        height: 200px;
+        width: 900px;
+    }
+
+    #second {
+        background-color:white;
+       height: 200px;
+        width: 900px;
+        position: relative;
+        
+        
+    }
+
+    #third {
+        background-color: rgb(58, 119, 40);
+        height: 200px;
+        width: 900px;
+    }
+
+    #second > div {
+        background-color: rgb(12, 28, 140);
+        height: 150px;
+        width: 900px;
+        position: absolute;
+        top: 25px;
+       
+    }
+
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div id="first"></div>
+        <div id="second">
+            <div></div>
+        </div>
+        <div id="third"></div>
+    </div>
+    
+</body>
+</html>
